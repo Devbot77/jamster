@@ -1,4 +1,7 @@
-FactoryGirl.define do
+FactoryGirl.define do  factory :lesson do
+    
+  end
+
 	factory :user do 
 		sequence :email do |n|
 			"devtester#{n}@gmail.com"
