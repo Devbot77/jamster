@@ -1,6 +1,4 @@
-FactoryGirl.define do  factory :lesson do
-    
-  end
+FactoryGirl.define do  
 
 	factory :user do 
 		sequence :email do |n|
@@ -20,6 +18,12 @@ FactoryGirl.define do  factory :lesson do
 	factory :section do
 		title "Test Section Omega"
 		association :user
+	end
+
+	factory :lesson do
+		title "Test lesson Beta"
+		subtitle "Hope it works"
+		association :section
 	end
 
 	
