@@ -1,4 +1,12 @@
 source 'https://rubygems.org'
+# Fog gem required by CarrierWave gem to use Figaro configuration
+gem 'fog', '~> 1.3.1'
+
+# Figaro for secure configuration
+gem 'figaro'
+
+# carrierwave for file upload
+gem 'carrierwave'
 
 gem 'factory_girl_rails', "~> 4.0"
 
