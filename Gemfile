@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 # image manipulation, specifically ruby wrapper for ImageMagick 
 gem 'mini_magick', '~> 4.3.1'
 
-# Fog gem required by CarrierWave gem to use Figaro configuration
-gem 'fog', '~> 1.3.1'
+# Faster than Fog gem for accessing file storage with AWS
+gem 'carrierwave-aws'
 
 # Figaro for secure configuration
 gem 'figaro'
