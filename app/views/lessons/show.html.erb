@@ -1,5 +1,8 @@
 <br />
-
+<% if alert.present? %>
+<p class="alert alert-danger"><%= alert %></p>
+<% end %>
+  
 <div class="booyah-box col-xs-10 col-xs-offset-1"> 
 	<h1><%= current_lesson.title %></h1>
 	<p>
