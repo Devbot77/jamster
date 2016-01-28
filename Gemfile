@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# Secure credit card transactions with Stripe
+gem 'stripe'
 # image manipulation, specifically ruby wrapper for ImageMagick 
 gem 'mini_magick', '~> 4.3.1'
 
