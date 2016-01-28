@@ -1,4 +1,7 @@
-FactoryGirl.define do  
+FactoryGirl.define do  factory :enrollment do
+    
+  end
+  
 
 	factory :user do 
 		sequence :email do |n|
