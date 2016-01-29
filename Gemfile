@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+# Efficient ordering of models
+gem 'ranked-model'
+
 # Secure credit card transactions with Stripe
 gem 'stripe'
 # image manipulation, specifically ruby wrapper for ImageMagick 
