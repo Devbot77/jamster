@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+# Use JQuery UI
+gem 'jquery-ui-rails'
+
 # Efficient ordering of models
 gem 'ranked-model'
 
