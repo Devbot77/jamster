@@ -36,6 +36,27 @@ body {
 	margin: 10px;
 }
 
+.index-box {
+	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+	box-shadow: 1px 1px 2px 0 #d0d0d0;
+	background: #F5F5F5;
+	border: 1px solid #ccc;
+	border-color: #F5F5F5 #bebebd #bebebd #F5F5F5;
+	padding: 20px;
+}
+
+hr {
+	margin: 30px auto;
+}
+
+.lg-divider {
+	margin: 30px auto;
+	border-width: 2px;
+	border-color: #522282;
+	clear: both;
+}
+
 .hero {
 	background: url('guitar_splash.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -64,7 +85,7 @@ body {
 }
 
 .btn {
-	border-radius:0;
+	border-radius:10%;
 }
 
 .clr {
@@ -85,9 +106,10 @@ body {
 
 
 .lesson {
-	background-color: black;
+	background-color: #242424;
 	margin-top: 10px;
 	height: 130px;
+	border-radius: 7px;
 }
 
 .section {
@@ -106,7 +128,7 @@ body {
 .lesson a {
 	font-family: "Helvetica Neue", Helvetica;
 	font-weight: 100;
-	color: white;
+	color: #DB3B3B;
 	font-size: 15px;
 }
 
@@ -116,13 +138,14 @@ body {
 }
 
 .lessons li {
-	background: black;
-	color: white;
+	background: #242424;
+	color: #DB3B3B;
 	margin: 10px;
 	font-family: "Helvetica Neue", Helvetica;
   	font-weight: 100;
   	padding: 8px;
   	font-size: 15px;
+  	border-radius: 7px;
 }
 
 .lessons li p {
